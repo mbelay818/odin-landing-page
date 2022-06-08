@@ -106,6 +106,60 @@ a {
     border-color: #3882F6;
 }
 
+.quote {
+    background-color: #E5E7EB;
+    padding: 150px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote > div {
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+}
+
+.bottom {
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.action {
+    padding: 30px 90px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.action > button {
+    background-color: #3882F6;
+    border-color: white;
+    color: #E5E7EB;
+    border-radius: 5px;
+    border-width: 2px;
+    font-weight: bold;
+    border-style: solid;
+    padding: 5px 20px;
+}
+
+.action-text {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.sign-up-text {
+    color: #E5E7EB;
+}
 
 .footer {
     color: #F9FAF8;
@@ -113,6 +167,6 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 15px;
+    padding: 35px;
     flex: 1;
 }
